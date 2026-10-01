@@ -9,6 +9,22 @@ A 3D simulation of a cricket ball from release to first bounce, with quadratic a
 3. `cricket_ball_flight`: main run. Side view, top view, summary table.
 4. Optional studies: `seam_angle_sweep`, `ball_condition_sweep`.
 
+## Figures
+
+Release-to-bounce trajectories (side and top view). Lateral scale is exaggerated; deviation is at the bounce, not the stumps.
+
+![Ball flight trajectories](ball_flight.png)
+
+Lateral deviation vs seam angle (assumed sin(4 alpha) model):
+
+![Seam angle sweep](seam_sweep.png)
+
+Lateral deviation vs release speed for new, used and scuffed balls (assumed knot-shift model):
+
+![Ball condition sweep](ball_condition_sweep.png)
+
+Vector PDF versions of all three are in the repo (`ball_flight.pdf`, `seam_sweep.pdf`, `ball_condition_sweep.pdf`), plus a 300 dpi PNG of the main figure (`ball_flight_300dpi.png`).
+
 ## Files
 
 | File | Purpose |

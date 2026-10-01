@@ -1,0 +1,7 @@
+# MATLAB autosave, backup and compiled files
+*.asv
+*.m~
+*.mex*
+*.autosave
+slprj/
+*.slxc
